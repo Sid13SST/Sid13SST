@@ -45,7 +45,7 @@ I am a **Full Stack Developer** specializing in AI-integrated applications, high
 <table align="center" width="100%">
   <tr>
     <td align="center" width="25%" valign="top">
-      <b>💻 LANGUAGES</b>
+      <b><nobr>💻 LANGUAGES</nobr></b>
       <br /><br />
       <img src="https://img.shields.io/badge/JavaScript-05070C?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JS" /><br />
       <img src="https://img.shields.io/badge/TypeScript-05070C?style=flat-square&logo=typescript&logoColor=3178C6" alt="TS" /><br />
@@ -53,7 +53,7 @@ I am a **Full Stack Developer** specializing in AI-integrated applications, high
       <img src="https://img.shields.io/badge/Python-05070C?style=flat-square&logo=python&logoColor=3776AB" alt="Python" />
     </td>
     <td align="center" width="25%" valign="top">
-      <b>⚡ FRAMEWORKS</b>
+      <b><nobr>⚡ FRAMEWORKS</nobr></b>
       <br /><br />
       <img src="https://img.shields.io/badge/React-05070C?style=flat-square&logo=react&logoColor=61DAFB" alt="React" /><br />
       <img src="https://img.shields.io/badge/Node.js-05070C?style=flat-square&logo=nodedotjs&logoColor=5FA04E" alt="Node" /><br />
@@ -61,13 +61,13 @@ I am a **Full Stack Developer** specializing in AI-integrated applications, high
       <img src="https://img.shields.io/badge/Hono.js-05070C?style=flat-square&logo=hono&logoColor=E36026" alt="Hono" />
     </td>
     <td align="center" width="25%" valign="top">
-      <b>💾 DATABASES</b>
+      <b><nobr>💾 DATABASES</nobr></b>
       <br /><br />
       <img src="https://img.shields.io/badge/PostgreSQL-05070C?style=flat-square&logo=postgresql&logoColor=4169E1" alt="PG" /><br />
       <img src="https://img.shields.io/badge/MongoDB-05070C?style=flat-square&logo=mongodb&logoColor=47A248" alt="Mongo" />
     </td>
     <td align="center" width="25%" valign="top">
-      <b>🛠️ INFRA &amp; TOOLS</b>
+      <b><nobr>🛠️ INFRA &amp; TOOLS</nobr></b>
       <br /><br />
       <img src="https://img.shields.io/badge/AI_APIs-05070C?style=flat-square&logo=openai&logoColor=BD00FF" alt="AI APIs" /><br />
       <img src="https://img.shields.io/badge/Git-05070C?style=flat-square&logo=git&logoColor=F05032" alt="Git" /><br />
@@ -131,7 +131,7 @@ An edge-oriented proxy and logging system serving as an ultra-fast routing middl
 <br />
 
 <div align="center">
-  <img src="https://profile-counter.glitch.me/Sid13SST/count.svg" alt="Visitor Counter" />
+  <img src="https://api.visitorbadge.io/api/visitors?path=Sid13SST&amp;label=NODE_VISITS&amp;labelColor=%2305070c&amp;countColor=%2300f0ff&amp;style=flat-square" alt="Visitor Counter" />
   <br /><br />
   <sub>⚡ SYSTEM METRICS: FULLY OPERATIONAL // SECURE CONSOLE ACCESS GRANTED </sub>
 </div>
