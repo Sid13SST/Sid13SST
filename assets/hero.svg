@@ -1,198 +1,151 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 300" width="100%" height="100%" style="background:#05070c; font-family:'Outfit', -apple-system, sans-serif;">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 260" width="100%" height="100%" style="background:#03050c; font-family:'Outfit', sans-serif;">
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&amp;family=Outfit:wght@300;400;600;800&amp;family=Share+Tech+Mono&amp;display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;family=Outfit:wght@300;400;600;800&amp;display=swap');
     
-    .glow-title {
-      font-family: 'Orbitron', sans-serif;
-      font-weight: 900;
-      font-size: 38px;
-      fill: url(#cyan-purple-grad);
-      filter: drop-shadow(0px 0px 8px rgba(0, 240, 255, 0.6));
+    .title {
+      font-family: 'Outfit', sans-serif;
+      font-weight: 800;
+      font-size: 36px;
+      fill: url(#text-grad);
+      letter-spacing: 1px;
     }
     
-    .mono-text {
-      font-family: 'Share Tech Mono', monospace;
-      font-size: 14px;
+    .subtitle {
+      font-family: 'Outfit', sans-serif;
+      font-weight: 400;
+      font-size: 16px;
       fill: #8E9AAF;
+      letter-spacing: 2px;
     }
     
-    .cyan-glow {
+    .tag-bg {
+      fill: #0B1021;
+      stroke: #1E293B;
+      stroke-width: 1px;
+      rx: 4px;
+    }
+    
+    .tag-text {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 11px;
       fill: #00F0FF;
-      filter: drop-shadow(0px 0px 4px rgba(0, 240, 255, 0.8));
     }
     
-    .purple-glow {
-      fill: #BD00FF;
-      filter: drop-shadow(0px 0px 4px rgba(189, 0, 255, 0.8));
-    }
-    
-    .grid-line {
-      stroke: #121E36;
-      stroke-width: 0.8px;
-    }
-    
-    .glow-line {
-      stroke: url(#line-grad);
-      stroke-width: 1.5px;
-      filter: drop-shadow(0px 0px 6px rgba(0, 240, 255, 0.8));
+    .system-status {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 11px;
+      fill: #475569;
     }
 
-    .pulse {
-      animation: pulse-animation 2s infinite alternate;
+    .pulse-dot {
+      fill: #00FF66;
+      animation: pulse 2s infinite alternate;
     }
 
-    @keyframes pulse-animation {
+    @keyframes pulse {
       0% { opacity: 0.3; }
       100% { opacity: 1; }
     }
 
-    .rotate-circle {
-      transform-origin: 700px 150px;
-      animation: rotate-animation 25s linear infinite;
+    /* Clean mathematical rotation for the right visual */
+    .rotate-slow {
+      transform-origin: 680px 130px;
+      animation: rotate-clockwise 30s linear infinite;
+    }
+    
+    .rotate-fast {
+      transform-origin: 680px 130px;
+      animation: rotate-counter 20s linear infinite;
     }
 
-    @keyframes rotate-animation {
+    @keyframes rotate-clockwise {
       0% { transform: rotate(0deg); }
       100% { transform: rotate(360deg); }
     }
 
-    .dash-array {
-      stroke-dasharray: 8 4;
-    }
-
-    .accent-card {
-      fill: #0A0F1D;
-      stroke: #1E293B;
-      stroke-width: 1px;
-      rx: 8px;
-    }
-
-    .stat-val {
-      font-weight: 600;
-      fill: #FFFFFF;
-      font-size: 14px;
+    @keyframes rotate-counter {
+      0% { transform: rotate(360deg); }
+      100% { transform: rotate(0deg); }
     }
   </style>
 
   <defs>
-    <!-- Gradients -->
-    <linearGradient id="cyan-purple-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <!-- Cyan to Blue high-end gradient -->
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#00F0FF" />
-      <stop offset="100%" stop-color="#BD00FF" />
+      <stop offset="100%" stop-color="#3B82F6" />
     </linearGradient>
     
-    <linearGradient id="line-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0" />
-      <stop offset="20%" stop-color="#00F0FF" stop-opacity="1" />
-      <stop offset="80%" stop-color="#BD00FF" stop-opacity="1" />
-      <stop offset="100%" stop-color="#BD00FF" stop-opacity="0" />
-    </linearGradient>
-
-    <radialGradient id="bg-glow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#141E38" stop-opacity="0.6" />
-      <stop offset="100%" stop-color="#05070c" stop-opacity="1" />
+    <radialGradient id="bg-glow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#0D1527" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#03050c" stop-opacity="1" />
     </radialGradient>
   </defs>
 
-  <!-- Background Layer -->
-  <rect width="850" height="300" fill="#05070c" />
-  <rect width="850" height="300" fill="url(#bg-glow)" />
+  <!-- Background -->
+  <rect width="850" height="260" fill="#03050c" />
+  <rect width="850" height="260" fill="url(#bg-glow)" />
 
-  <!-- Cyber Grid -->
-  <!-- Vertical lines -->
-  <line x1="50" y1="0" x2="50" y2="300" class="grid-line" />
-  <line x1="100" y1="0" x2="100" y2="300" class="grid-line" />
-  <line x1="150" y1="0" x2="150" y2="300" class="grid-line" />
-  <line x1="200" y1="0" x2="200" y2="300" class="grid-line" />
-  <line x1="250" y1="0" x2="250" y2="300" class="grid-line" />
-  <line x1="300" y1="0" x2="300" y2="300" class="grid-line" />
-  <line x1="350" y1="0" x2="350" y2="300" class="grid-line" />
-  <line x1="400" y1="0" x2="400" y2="300" class="grid-line" />
-  <line x1="450" y1="0" x2="450" y2="300" class="grid-line" />
-  <line x1="500" y1="0" x2="500" y2="300" class="grid-line" />
-  <line x1="550" y1="0" x2="550" y2="300" class="grid-line" />
-  <line x1="600" y1="0" x2="600" y2="300" class="grid-line" />
-  <line x1="650" y1="0" x2="650" y2="300" class="grid-line" stroke-opacity="0.4" />
-  <line x1="700" y1="0" x2="700" y2="300" class="grid-line" stroke-opacity="0.2" />
-  <line x1="750" y1="0" x2="750" y2="300" class="grid-line" stroke-opacity="0.1" />
-
-  <!-- Horizontal lines -->
-  <line x1="0" y1="50" x2="850" y2="50" class="grid-line" />
-  <line x1="0" y1="100" x2="850" y2="100" class="grid-line" />
-  <line x1="0" y1="150" x2="850" y2="150" class="grid-line" />
-  <line x1="0" y1="200" x2="850" y2="200" class="grid-line" />
-  <line x1="0" y1="250" x2="850" y2="250" class="grid-line" />
-
-  <!-- Separator glowing line -->
-  <line x1="50" y1="105" x2="550" y2="105" class="glow-line" />
-
-  <!-- Rotating tech-circle (Radar/HUD) on the right -->
-  <g class="rotate-circle">
-    <!-- Outer dashed circle -->
-    <circle cx="700" cy="150" r="90" stroke="#BD00FF" stroke-width="1.5" stroke-opacity="0.4" fill="none" class="dash-array" />
-    <!-- Inner dashed circle -->
-    <circle cx="700" cy="150" r="70" stroke="#00F0FF" stroke-width="1" stroke-opacity="0.6" fill="none" stroke-dasharray="20 10 5 10" />
-    <!-- Outer solid thin ring -->
-    <circle cx="700" cy="150" r="105" stroke="#1E293B" stroke-width="1" fill="none" />
-    <!-- Tech ticks -->
-    <path d="M 700 45 L 700 55 M 700 245 L 700 255 M 595 150 L 605 150 M 795 150 L 805 150" stroke="#00F0FF" stroke-width="2" stroke-opacity="0.8" />
-  </g>
-  <circle cx="700" cy="150" r="45" fill="#0A0F1D" stroke="#00F0FF" stroke-width="0.5" stroke-opacity="0.3" />
-  <!-- Center Core Pulsing Glow -->
-  <circle cx="700" cy="150" r="15" fill="#00F0FF" class="pulse" fill-opacity="0.8" filter="drop-shadow(0px 0px 8px #00F0FF)" />
-  <circle cx="700" cy="150" r="5" fill="#FFFFFF" />
-
-  <!-- Corner tech accents -->
-  <path d="M 15 25 L 15 15 L 25 15" stroke="#00F0FF" stroke-width="2" fill="none" />
-  <path d="M 835 25 L 835 15 L 825 15" stroke="#00F0FF" stroke-width="2" fill="none" />
-  <path d="M 15 275 L 15 285 L 25 285" stroke="#00F0FF" stroke-width="2" fill="none" />
-  <path d="M 835 275 L 835 285 L 825 285" stroke="#00F0FF" stroke-width="2" fill="none" />
-
-  <!-- Info Cards / Labels (Terminal style) -->
-  <g transform="translate(60, 40)">
-    <rect x="-10" y="-18" width="80" height="24" rx="4" fill="#0E1726" stroke="#1E293B" />
-    <text x="30" y="-2" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="11" fill="#00F0FF" font-weight="bold">SYS_ONLINE</text>
-    <circle cx="-2" cy="-6" r="3" fill="#00FF66" class="pulse" filter="drop-shadow(0px 0px 3px #00FF66)"/>
-  </g>
-
-  <!-- Large Branding Title -->
-  <text x="50" y="90" class="glow-title">SIDDHANT PRASAD</text>
-
-  <!-- Subtitle -->
-  <text x="50" y="132" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="2">AI ARCHITECT &amp; FULL STACK DEVELOPER</text>
-  <text x="475" y="132" font-size="13" font-weight="600" fill="#BD00FF" letter-spacing="1">SCALER SST</text>
-
-  <!-- Telemetry / Stats Box -->
-  <rect x="50" y="155" width="480" height="110" class="accent-card" />
+  <!-- Subtle Cyber Grid Lines (low opacity to prevent clutter) -->
+  <line x1="50" y1="0" x2="50" y2="260" stroke="#121826" stroke-width="0.5" />
+  <line x1="200" y1="0" x2="200" y2="260" stroke="#121826" stroke-width="0.5" />
+  <line x1="350" y1="0" x2="350" y2="260" stroke="#121826" stroke-width="0.5" />
+  <line x1="500" y1="0" x2="500" y2="260" stroke="#121826" stroke-width="0.5" />
   
-  <!-- Telemetry Grid -->
-  <line x1="290" y1="155" x2="290" y2="265" stroke="#1E293B" stroke-width="1" />
+  <line x1="0" y1="50" x2="850" y2="50" stroke="#121826" stroke-width="0.5" />
+  <line x1="0" y1="130" x2="850" y2="130" stroke="#121826" stroke-width="0.5" />
+  <line x1="0" y1="210" x2="850" y2="210" stroke="#121826" stroke-width="0.5" />
+
+  <!-- Outer sleek border -->
+  <rect x="15" y="15" width="820" height="230" fill="none" stroke="#1E293B" stroke-width="1" rx="8" />
+
+  <!-- Top Telemetry Bar -->
+  <g transform="translate(40, 38)">
+    <circle cx="0" cy="-4" r="3.5" class="pulse-dot" />
+    <text x="12" y="0" class="system-status">SYS_STATUS: ACTIVE // LOC: BENGALURU, IN</text>
+    <text x="770" y="0" class="system-status" text-anchor="end">SYS_TYPE: FULL_STACK_NODE</text>
+  </g>
+
+  <!-- Left Side: Profile Information -->
+  <g transform="translate(40, 105)">
+    <!-- Title -->
+    <text x="0" y="0" class="title">SIDDHANT PRASAD</text>
+    
+    <!-- Subtitle -->
+    <text x="0" y="32" class="subtitle">AI INTEGRATION &amp; BACKEND SYSTEMS</text>
+  </g>
+
+  <!-- Tech Badges/Pills Row -->
+  <g transform="translate(40, 180)">
+    <!-- Badge 1 -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="105" height="24" class="tag-bg" />
+      <text x="52.5" y="15" class="tag-text" text-anchor="middle">AI_PIPELINES</text>
+    </g>
+    <!-- Badge 2 -->
+    <g transform="translate(115, 0)">
+      <rect x="0" y="0" width="130" height="24" class="tag-bg" />
+      <text x="65" y="15" class="tag-text" text-anchor="middle" fill="#3B82F6">SCALER_SST_NODE</text>
+    </g>
+    <!-- Badge 3 -->
+    <g transform="translate(255, 0)">
+      <rect x="0" y="0" width="125" height="24" class="tag-bg" />
+      <text x="62.5" y="15" class="tag-text" text-anchor="middle">EDGE_RUNTIMES</text>
+    </g>
+  </g>
+
+  <!-- Right Side: Clean Mathematical Geometric Visual -->
+  <g class="rotate-slow">
+    <!-- Clean concentric rings -->
+    <circle cx="680" cy="130" r="65" fill="none" stroke="#1E293B" stroke-width="1" />
+    <circle cx="680" cy="130" r="50" fill="none" stroke="#3B82F6" stroke-width="1.5" stroke-dasharray="12 8" stroke-opacity="0.7" />
+  </g>
   
-  <!-- Left Column Telemetry -->
-  <g transform="translate(70, 180)">
-    <text x="0" y="0" class="mono-text">[FOCUS] ──</text>
-    <text x="90" y="0" class="stat-val">AI INTEGRATION &amp; BACKEND</text>
-
-    <text x="0" y="25" class="mono-text">[BUILD] ──</text>
-    <text x="90" y="25" class="stat-val" fill="#00F0FF">GRADONIX (AI EVALUATION)</text>
-
-    <text x="0" y="50" class="mono-text">[CLASS] ──</text>
-    <text x="90" y="50" class="stat-val">SYSTEMS ARCHITECT</text>
+  <g class="rotate-fast">
+    <circle cx="680" cy="130" r="35" fill="none" stroke="#00F0FF" stroke-width="1.2" stroke-dasharray="40 10 5 10" stroke-opacity="0.8" />
   </g>
-
-  <!-- Right Column Telemetry -->
-  <g transform="translate(310, 180)">
-    <text x="0" y="0" class="mono-text">[IP_LOC] ──</text>
-    <text x="90" y="0" class="stat-val">BLR.IND (12.97, 77.59)</text>
-
-    <text x="0" y="25" class="mono-text">[ENGINE] ──</text>
-    <text x="90" y="25" class="stat-val">HONO / NODE / TS / PG</text>
-
-    <text x="0" y="50" class="mono-text">[STATUS] ──</text>
-    <text x="90" y="50" class="stat-val" fill="#00FF66">STEALTH MODE ACTIVATED</text>
-  </g>
-
-  <!-- Little terminal prompt detail at bottom -->
-  <rect x="50" y="272" width="480" height="15" rx="3" fill="#090D16" />
-  <text x="60" y="283" font-family="'Share Tech Mono', monospace" font-size="9" fill="#5F7594">sid13sst@gradonix:~$ initialisation_sequence --complete --v=1.0.4</text>
+  
+  <!-- Core Point -->
+  <circle cx="680" cy="130" r="4" fill="#00F0FF" />
+  <circle cx="680" cy="130" r="10" fill="none" stroke="#00F0FF" stroke-width="1" stroke-opacity="0.3" />
 </svg>
