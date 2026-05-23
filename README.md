@@ -6,22 +6,6 @@
 
   <!-- Animated Typing Terminal Subtitle -->
   <img src="assets/typing.svg" width="100%" alt="System Terminal Typing" />
-
-  <br />
-
-  <!-- Quick Connection Badges -->
-  <a href="https://siddhant-prasad.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/badge/PORTFOLIO-05070C?style=for-the-badge&logo=vercel&logoColor=00F0FF&labelColor=090D16" alt="Portfolio" />
-  </a>
-  <a href="https://www.linkedin.com/in/siddhant-prasad-50516a339" target="_blank">
-    <img src="https://img.shields.io/badge/LINKEDIN-05070C?style=for-the-badge&logo=linkedin&logoColor=BD00FF&labelColor=090D16" alt="LinkedIn" />
-  </a>
-  <a href="https://x.com/prasad_sid61519" target="_blank">
-    <img src="https://img.shields.io/badge/TWITTER-05070C?style=for-the-badge&logo=x&logoColor=00F0FF&labelColor=090D16" alt="Twitter" />
-  </a>
-  <a href="mailto:siddhant.24bcs10255@sst.scaler.com">
-    <img src="https://img.shields.io/badge/EMAIL-05070C?style=for-the-badge&logo=gmail&logoColor=BD00FF&labelColor=090D16" alt="Email" />
-  </a>
 </div>
 
 <br />
