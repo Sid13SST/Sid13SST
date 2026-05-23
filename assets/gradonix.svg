@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 200" width="100%" height="100%" style="background:#060A13; font-family:'Outfit', sans-serif;">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700;800&amp;family=Outfit:wght@300;400;600&amp;family=Share+Tech+Mono&amp;display=swap');
+    
+    .title {
+      font-family: 'Orbitron', sans-serif;
+      font-weight: 800;
+      font-size: 22px;
+      fill: #00F0FF;
+      filter: drop-shadow(0px 0px 4px rgba(0, 240, 255, 0.5));
+    }
+    
+    .label {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 11px;
+      fill: #5F7594;
+    }
+    
+    .value {
+      font-weight: 600;
+      font-size: 13px;
+      fill: #E2E8F0;
+    }
+    
+    .glow-box {
+      stroke: #1E293B;
+      stroke-width: 1px;
+      fill: #0B1120;
+      rx: 6px;
+    }
+
+    .neon-border {
+      stroke: #BD00FF;
+      stroke-width: 1px;
+      fill: #0B1120;
+      rx: 6px;
+      filter: drop-shadow(0px 0px 3px rgba(189, 0, 255, 0.4));
+    }
+    
+    .pulse {
+      animation: pulse-glow 2s infinite alternate;
+    }
+    
+    @keyframes pulse-glow {
+      0% { opacity: 0.4; }
+      100% { opacity: 1; }
+    }
+    
+    .arrow {
+      stroke: #00F0FF;
+      stroke-width: 1.5px;
+      fill: none;
+      stroke-dasharray: 4;
+      animation: dash 5s linear infinite;
+    }
+    
+    @keyframes dash {
+      to {
+        stroke-dashoffset: -20;
+      }
+    }
+  </style>
+
+  <rect width="850" height="200" fill="#060A13" rx="8" stroke="#1E293B" stroke-width="1" />
+  
+  <!-- Grid accents -->
+  <line x1="20" y1="0" x2="20" y2="200" stroke="#101726" stroke-width="1" />
+  <line x1="830" y1="0" x2="830" y2="200" stroke="#101726" stroke-width="1" />
+  
+  <!-- Left Side: Product Branding -->
+  <g transform="translate(40, 40)">
+    <text x="0" y="10" class="title">GRADONIX</text>
+    <text x="0" y="32" font-family="'Share Tech Mono', monospace" font-size="12" fill="#BD00FF" font-weight="bold">AI-POWERED EVALUATION SYSTEM</text>
+    
+    <text x="0" y="65" class="value" font-size="14" fill="#94A3B8">Automating quality control, safety,</text>
+    <text x="0" y="85" class="value" font-size="14" fill="#94A3B8">and alignment testing for LLM pipelines.</text>
+    
+    <!-- Status tag -->
+    <rect x="0" y="115" width="110" height="24" rx="12" fill="#131127" stroke="#BD00FF" stroke-width="1" />
+    <circle cx="15" cy="127" r="4" fill="#BD00FF" class="pulse" />
+    <text x="27" y="131" font-family="'Share Tech Mono', monospace" font-size="10" fill="#E2E8F0">STEALTH MODE</text>
+  </g>
+
+  <!-- Right Side: Interactive Flow Diagram -->
+  <!-- Block 1: Input Data -->
+  <g transform="translate(380, 50)">
+    <rect x="0" y="0" width="100" height="60" class="glow-box" />
+    <text x="50" y="22" text-anchor="middle" class="label">INPUT SYSTEM</text>
+    <text x="50" y="42" text-anchor="middle" class="value" fill="#E2E8F0">User Prompt</text>
+  </g>
+
+  <!-- Arrow 1 -->
+  <path d="M 480 80 L 520 80" class="arrow" />
+  
+  <!-- Block 2: Gradonix Engine -->
+  <g transform="translate(520, 40)">
+    <rect x="0" y="0" width="130" height="80" class="neon-border" />
+    <text x="65" y="25" text-anchor="middle" class="label" fill="#BD00FF">EVALUATION NODE</text>
+    <text x="65" y="48" text-anchor="middle" class="value" fill="#00F0FF" font-family="'Orbitron', sans-serif">GRADONIX</text>
+    <text x="65" y="65" text-anchor="middle" class="label" font-size="9">LLM Judge Matrix</text>
+  </g>
+
+  <!-- Arrow 2 -->
+  <path d="M 650 80 L 690 80" class="arrow" />
+
+  <!-- Block 3: Metrics Output -->
+  <g transform="translate(690, 50)">
+    <rect x="0" y="0" width="110" height="60" class="glow-box" />
+    <text x="55" y="22" text-anchor="middle" class="label">METRICS REPORT</text>
+    <text x="55" y="42" text-anchor="middle" class="value" fill="#00FF66">99.2% Accuracy</text>
+  </g>
+
+  <!-- Flow labels at bottom -->
+  <text x="595" y="150" text-anchor="middle" class="label" fill="#475569">Real-time LLM Guardrails &amp; Safety Evaluation Flow</text>
+</svg>

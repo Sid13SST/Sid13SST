@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 45" width="100%" height="100%" style="background:#05070c; border: 1px solid #1E293B; border-radius: 6px;">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;display=swap');
+    
+    .terminal-text {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 14px;
+      fill: #E2E8F0;
+      dominant-baseline: middle;
+    }
+    
+    .prompt {
+      fill: #00F0FF;
+      font-weight: bold;
+    }
+    
+    .cursor {
+      fill: #00F0FF;
+      animation: blink 0.8s step-end infinite;
+    }
+    
+    @keyframes blink {
+      from, to { fill: transparent; }
+      50% { fill: #00F0FF; }
+    }
+  </style>
+
+  <rect width="850" height="45" fill="#05070c" rx="6" />
+  
+  <!-- Header Bar dots -->
+  <circle cx="18" cy="22" r="4" fill="#FF5F56" />
+  <circle cx="30" cy="22" r="4" fill="#FFBD2E" />
+  <circle cx="42" cy="22" r="4" fill="#27C93F" />
+
+  <g transform="translate(65, 23)">
+    <text x="0" y="0" class="terminal-text prompt">sid13sst@gradonix:~$</text>
+
+    <!-- Phrase 1: Building Gradonix -->
+    <g>
+      <animate attributeName="opacity" values="1;1;0;0;0;0;0;0;0;0;0;0" keyTimes="0;0.23;0.25;0.48;0.5;0.73;0.75;0.98;0.99;1;1;1" dur="20s" repeatCount="indefinite" />
+      <clipPath id="clip1">
+        <rect x="185" y="-15" height="30" width="0">
+          <animate attributeName="width" values="0;0;220;220;0" keyTimes="0;0.05;0.8;0.95;1" dur="5s" repeatCount="indefinite" />
+        </rect>
+      </clipPath>
+      <text x="185" y="0" class="terminal-text" clip-path="url(#clip1)">building --startup=gradonix</text>
+      <rect y="-7" width="8" height="14" class="cursor" clip-path="url(#clip1)">
+        <animate attributeName="x" values="185;185;405;405;185" keyTimes="0;0.05;0.8;0.95;1" dur="5s" repeatCount="indefinite" />
+      </rect>
+    </g>
+
+    <!-- Phrase 2: Designing AI evaluation systems -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0;0;0;0;0;0;0;0" keyTimes="0;0.23;0.25;0.48;0.5;0.73;0.75;0.98;0.99;1;1;1" dur="20s" repeatCount="indefinite" />
+      <clipPath id="clip2">
+        <rect x="185" y="-15" height="30" width="0">
+          <animate attributeName="width" values="0;0;240;240;0" keyTimes="0;0.05;0.8;0.95;1" dur="5s" repeatCount="indefinite" />
+        </rect>
+      </clipPath>
+      <text x="185" y="0" class="terminal-text" clip-path="url(#clip2)">designing --ai-eval-systems</text>
+      <rect y="-7" width="8" height="14" class="cursor" clip-path="url(#clip2)">
+        <animate attributeName="x" values="185;185;425;425;185" keyTimes="0;0.05;0.8;0.95;1" dur="5s" repeatCount="indefinite" />
+      </rect>
+    </g>
+
+    <!-- Phrase 3: Deploying Hono backends -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;0;0;1;1;0;0;0;0;0;0" keyTimes="0;0.23;0.25;0.48;0.5;0.73;0.75;0.98;0.99;1;1;1" dur="20s" repeatCount="indefinite" />
+      <clipPath id="clip3">
+        <rect x="185" y="-15" height="30" width="0">
+          <animate attributeName="width" values="0;0;230;230;0" keyTimes="0;0.05;0.8;0.95;1" dur="5s" repeatCount="indefinite" />
+        </rect>
+      </clipPath>
+      <text x="185" y="0" class="terminal-text" clip-path="url(#clip3)">deploying --hono-backend-api</text>
+      <rect y="-7" width="8" height="14" class="cursor" clip-path="url(#clip3)">
+        <animate attributeName="x" values="185;185;415;415;185" keyTimes="0;0.05;0.8;0.95;1" dur="5s" repeatCount="indefinite" />
+      </rect>
+    </g>
+
+    <!-- Phrase 4: Architecting scalable products -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;0;0;0;0;1;1;0;0;0;0" keyTimes="0;0.23;0.25;0.48;0.5;0.73;0.75;0.98;0.99;1;1;1" dur="20s" repeatCount="indefinite" />
+      <clipPath id="clip4">
+        <rect x="185" y="-15" height="30" width="0">
+          <animate attributeName="width" values="0;0;260;260;0" keyTimes="0;0.05;0.8;0.95;1" dur="5s" repeatCount="indefinite" />
+        </rect>
+      </clipPath>
+      <text x="185" y="0" class="terminal-text" clip-path="url(#clip4)">architecting --scale=high-throughput</text>
+      <rect y="-7" width="8" height="14" class="cursor" clip-path="url(#clip4)">
+        <animate attributeName="x" values="185;185;445;445;185" keyTimes="0;0.05;0.8;0.95;1" dur="5s" repeatCount="indefinite" />
+      </rect>
+    </g>
+  </g>
+</svg>
