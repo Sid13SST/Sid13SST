@@ -35,59 +35,59 @@
   <g transform="translate(65, 23)">
     <text x="0" y="0" class="terminal-text prompt">sid13sst@developer:~$</text>
 
-    <!-- Phrase 1: cat focus.json -->
+    <!-- Phrase 1: ssh core@siddhant.network -->
     <g>
       <animate attributeName="opacity" values="1;1;0;0;0;0;0;0;0;0;0;0" keyTimes="0;0.23;0.25;0.48;0.5;0.73;0.75;0.98;0.99;1;1;1" dur="20s" repeatCount="indefinite" />
       <clipPath id="clip1">
         <rect x="185" y="-15" height="30" width="0">
-          <animate attributeName="width" values="0;0;140;140;0" keyTimes="0;0.05;0.8;0.95;1" dur="5s" repeatCount="indefinite" />
+          <animate attributeName="width" values="0;0;210;210;0" keyTimes="0;0.05;0.8;0.95;1" dur="5s" repeatCount="indefinite" />
         </rect>
       </clipPath>
-      <text x="185" y="0" class="terminal-text" clip-path="url(#clip1)">cat focus.json</text>
+      <text x="185" y="0" class="terminal-text" clip-path="url(#clip1)">ssh core@siddhant.network</text>
       <rect y="-7" width="8" height="14" class="cursor" clip-path="url(#clip1)">
-        <animate attributeName="x" values="185;185;325;325;185" keyTimes="0;0.05;0.8;0.95;1" dur="5s" repeatCount="indefinite" />
+        <animate attributeName="x" values="185;185;395;395;185" keyTimes="0;0.05;0.8;0.95;1" dur="5s" repeatCount="indefinite" />
       </rect>
     </g>
 
-    <!-- Phrase 2: npm run dev -->
+    <!-- Phrase 2: python3 -m train_net -->
     <g opacity="0">
       <animate attributeName="opacity" values="0;0;1;1;0;0;0;0;0;0;0;0" keyTimes="0;0.23;0.25;0.48;0.5;0.73;0.75;0.98;0.99;1;1;1" dur="20s" repeatCount="indefinite" />
       <clipPath id="clip2">
         <rect x="185" y="-15" height="30" width="0">
-          <animate attributeName="width" values="0;0;120;120;0" keyTimes="0;0.05;0.8;0.95;1" dur="5s" repeatCount="indefinite" />
+          <animate attributeName="width" values="0;0;170;170;0" keyTimes="0;0.05;0.8;0.95;1" dur="5s" repeatCount="indefinite" />
         </rect>
       </clipPath>
-      <text x="185" y="0" class="terminal-text" clip-path="url(#clip2)">npm run dev</text>
+      <text x="185" y="0" class="terminal-text" clip-path="url(#clip2)">python3 -m train_net</text>
       <rect y="-7" width="8" height="14" class="cursor" clip-path="url(#clip2)">
-        <animate attributeName="x" values="185;185;305;305;185" keyTimes="0;0.05;0.8;0.95;1" dur="5s" repeatCount="indefinite" />
+        <animate attributeName="x" values="185;185;355;355;185" keyTimes="0;0.05;0.8;0.95;1" dur="5s" repeatCount="indefinite" />
       </rect>
     </g>
 
-    <!-- Phrase 3: curl -s portfolio -->
+    <!-- Phrase 3: curl -s siddhant.app/status -->
     <g opacity="0">
       <animate attributeName="opacity" values="0;0;0;0;1;1;0;0;0;0;0;0" keyTimes="0;0.23;0.25;0.48;0.5;0.73;0.75;0.98;0.99;1;1;1" dur="20s" repeatCount="indefinite" />
       <clipPath id="clip3">
         <rect x="185" y="-15" height="30" width="0">
-          <animate attributeName="width" values="0;0;160;160;0" keyTimes="0;0.05;0.8;0.95;1" dur="5s" repeatCount="indefinite" />
+          <animate attributeName="width" values="0;0;230;230;0" keyTimes="0;0.05;0.8;0.95;1" dur="5s" repeatCount="indefinite" />
         </rect>
       </clipPath>
-      <text x="185" y="0" class="terminal-text" clip-path="url(#clip3)">curl -s portfolio</text>
+      <text x="185" y="0" class="terminal-text" clip-path="url(#clip3)">curl -s siddhant.app/status</text>
       <rect y="-7" width="8" height="14" class="cursor" clip-path="url(#clip3)">
-        <animate attributeName="x" values="185;185;345;345;185" keyTimes="0;0.05;0.8;0.95;1" dur="5s" repeatCount="indefinite" />
+        <animate attributeName="x" values="185;185;415;415;185" keyTimes="0;0.05;0.8;0.95;1" dur="5s" repeatCount="indefinite" />
       </rect>
     </g>
 
-    <!-- Phrase 4: git status -->
+    <!-- Phrase 4: systemctl status core -->
     <g opacity="0">
       <animate attributeName="opacity" values="0;0;0;0;0;0;1;1;0;0;0;0" keyTimes="0;0.23;0.25;0.48;0.5;0.73;0.75;0.98;0.99;1;1;1" dur="20s" repeatCount="indefinite" />
       <clipPath id="clip4">
         <rect x="185" y="-15" height="30" width="0">
-          <animate attributeName="width" values="0;0;110;110;0" keyTimes="0;0.05;0.8;0.95;1" dur="5s" repeatCount="indefinite" />
+          <animate attributeName="width" values="0;0;180;180;0" keyTimes="0;0.05;0.8;0.95;1" dur="5s" repeatCount="indefinite" />
         </rect>
       </clipPath>
-      <text x="185" y="0" class="terminal-text" clip-path="url(#clip4)">git status</text>
+      <text x="185" y="0" class="terminal-text" clip-path="url(#clip4)">systemctl status core</text>
       <rect y="-7" width="8" height="14" class="cursor" clip-path="url(#clip4)">
-        <animate attributeName="x" values="185;185;295;295;185" keyTimes="0;0.05;0.8;0.95;1" dur="5s" repeatCount="indefinite" />
+        <animate attributeName="x" values="185;185;365;365;185" keyTimes="0;0.05;0.8;0.95;1" dur="5s" repeatCount="indefinite" />
       </rect>
     </g>
   </g>

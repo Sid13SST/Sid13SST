@@ -1,11 +1,11 @@
 <div align="center">
   <!-- Hero Cinematic Banner -->
-  <img src="https://raw.githubusercontent.com/Sid13SST/Sid13SST/main/assets/hero.svg" width="100%" alt="Siddhant Prasad - AI Architect & Full Stack Developer" />
+  <img src="assets/hero.svg" width="100%" alt="Siddhant Prasad - AI Architect & Full Stack Developer" />
   
   <br />
 
   <!-- Animated Typing Terminal Subtitle -->
-  <img src="https://raw.githubusercontent.com/Sid13SST/Sid13SST/main/assets/typing.svg" width="100%" alt="System Terminal Typing" />
+  <img src="assets/typing.svg" width="100%" alt="System Terminal Typing" />
 
   <br />
 
@@ -87,7 +87,7 @@ I am a **Full Stack Developer** specializing in AI-integrated applications, high
 An evaluation platform designed to run automated safety, quality, and alignment checks across prompt pipelines, protecting LLMs from jailbreaks and hallucination drifts.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Sid13SST/Sid13SST/main/assets/gradonix.svg" width="100%" alt="Gradonix Infrastructure Pipeline" />
+  <img src="assets/gradonix.svg" width="100%" alt="Gradonix Infrastructure Pipeline" />
 </div>
 
 ---
@@ -96,7 +96,7 @@ An evaluation platform designed to run automated safety, quality, and alignment 
 An agent management layer orchestrating autonomous reasoning loops. Claribot processes unstructured dialogue inputs and dynamically maps them to internal tool APIs using high-precision vector search.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Sid13SST/Sid13SST/main/assets/claribot.svg" width="100%" alt="Claribot Architecture Flow" />
+  <img src="assets/claribot.svg" width="100%" alt="Claribot Architecture Flow" />
 </div>
 
 ---
@@ -105,7 +105,7 @@ An agent management layer orchestrating autonomous reasoning loops. Claribot pro
 An edge-oriented proxy and logging system serving as an ultra-fast routing middleware for AI platforms, executing microservice integrations with sub-15ms overheads.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Sid13SST/Sid13SST/main/assets/fricta.svg" width="100%" alt="Fricta Gateway Flow" />
+  <img src="assets/fricta.svg" width="100%" alt="Fricta Gateway Flow" />
 </div>
 
 <br />

@@ -125,7 +125,7 @@
     <!-- Badge 2 -->
     <g transform="translate(115, 0)">
       <rect x="0" y="0" width="130" height="24" class="tag-bg" />
-      <text x="65" y="15" class="tag-text" text-anchor="middle" fill="#3B82F6">SCALER_SST_NODE</text>
+      <text x="65" y="15" class="tag-text" text-anchor="middle" fill="#3B82F6">NEURAL_GATEWAY</text>
     </g>
     <!-- Badge 3 -->
     <g transform="translate(255, 0)">
