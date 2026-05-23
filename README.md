@@ -65,7 +65,7 @@ I am a **Full Stack Developer** specializing in AI-integrated applications, high
 
 ---
 
-## 🚀 ACTIVE SHIPS (STARTUPS & PROJECTS)
+## 🚀 ACTIVE SHIPS (MAJOR PROJECTS)
 
 ### 🛡️ **Gradonix** — LLM Quality & Alignment Infrastructure
 An evaluation platform designed to run automated safety, quality, and alignment checks across prompt pipelines, protecting LLMs from jailbreaks and hallucination drifts.
