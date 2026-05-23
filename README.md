@@ -131,7 +131,7 @@ An edge-oriented proxy and logging system serving as an ultra-fast routing middl
 <br />
 
 <div align="center">
-  <img src="https://komarev.github.io/github-profile-visitor-counter/?username=Sid13SST&color=00f0ff&style=flat-square&label=NODE_VISITS" alt="Visitor Counter" />
+  <img src="https://profile-counter.glitch.me/Sid13SST/count.svg" alt="Visitor Counter" />
   <br /><br />
   <sub>⚡ SYSTEM METRICS: FULLY OPERATIONAL // SECURE CONSOLE ACCESS GRANTED </sub>
 </div>
